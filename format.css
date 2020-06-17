@@ -67,3 +67,9 @@ h2 {
 p {
     font-family: Arial, Georgia, 'Times New Roman', Times, serif
 }
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
