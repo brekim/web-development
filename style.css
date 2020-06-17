@@ -1,7 +1,49 @@
-h1 {
+h1, h2, h3 {
+    color: green;
+}
+
+#overrated {
     color: red;
 }
 
-h2 {
+#underrated {
+    color: blue;
+}
+
+.captain {
+    color: gold;
+}
+
+ol > li {
+    background-color: silver;
+}
+
+li.captain {
+    background-color: gold;
+    color: white;
+}
+
+div h3 {
+    background-color: turquoise;
+}
+
+a:link, a:visited {
+    color: blue;
+    display: block;
+    text-align: center;
+    width: 200px;
+    background-color: yellow;
+    margin-bottom: 2px;
+    text-decoration: none;
+    border: blue 3px solid;
+}
+
+a:hover, a:active {
+    background-color: blue;
+    border: yellow 3px solid;
+    color: yellow;
+}
+
+li:nth-child(5) {
     color: blue;
 }
