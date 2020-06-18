@@ -1,0 +1,13 @@
+.row {
+    /* Used to illustrate the row behavior */
+    margin-bottom: 15px;
+}
+
+.row > div {
+    border: 6px solid coral;
+    background-color: lightcoral;
+}
+
+hr {
+    border-top: 2px solid lightgray;
+}
