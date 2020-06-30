@@ -100,3 +100,123 @@ body {
 /************************
         END HEADER
 *************************/
+
+.container .jumbotron {
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
+
+/************************
+LARGE DEVICES
+*************************/
+@media (min-width: 1200px) {
+    /* Home Page */
+    .container .jumbotron {
+        background: url('../images/jumbotron_1200.jpg') no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+    /* End Home Page */
+}
+
+/************************
+MEDIUM DEVICES
+*************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+        background: url('../images/restaurant-logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    /* End Header */
+
+    /* Home Page */
+    .container .jumbotron {
+        background: url('../images/jumbotron_992.jpg') no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+    /* End Home Page */
+}
+
+/************************
+SMALL DEVICES
+*************************/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .container .jumbotron {
+        background: url('../images/jumbotron_768.jpg') no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+    /* End Home Page */
+}
+
+/************************
+EXTRA SMALL DEVICES
+*************************/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    /* Restaurant name */
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of the viewport's width */
+    }
+    
+    /* Kosher certification */
+    .navbar-brand p {
+        font-size: .6em;
+        margin-top: 12px;
+    }
+
+    /* Star-K */
+    .navbar-brand p img {
+        height: 20px;
+    }
+
+    /* Collapsed nav menu text */
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+
+    /* Collapsed nav menu glyph */
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #ffffff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    /* Home Page */
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
