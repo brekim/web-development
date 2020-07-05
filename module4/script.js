@@ -112,4 +112,9 @@ for (var time in wakeup) {
     console.log(time);
 }
 
-//Closures
+//IIFE
+(function (password) {
+    this.password = password;
+    secretKey = password + "43258mvwsde9frm";
+    console.log(secretKey);
+})(password);
