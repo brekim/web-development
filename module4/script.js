@@ -72,3 +72,44 @@ function doOperationOn(x, operation) {
 
 var result = doOperationOn(5, multiplyBy3);
 console.log(result);
+
+//Function constructors
+function Work(time, talent) {
+    this.time = time;
+    this.talent = talent;
+}
+
+Work.prototype.success =
+    function () {
+        console.log(this.time * this.talent);
+        return this.time * this.talent;
+    };
+
+var myWork = new Work(10, 9);
+console.log(myWork.success());
+
+//Arrays
+var array = new Array();
+array[0] = "JavaScript";
+array[1] = 14;
+array[2] = function dance(name) {
+    console.log("I like to dance, " + name);
+};
+array[3] = {course: "A Course"};
+
+console.log(array);
+array[2]("Mark")
+
+console.log(array[3].course)
+
+var wakeup = ["2AM", "3AM", "5AM", "8AM", "8AM", "9AM"];
+
+for(var i = 0; i < wakeup.length; i++) {
+    console.log("Hello " + wakeup[i]);
+}
+
+for (var time in wakeup) {
+    console.log(time);
+}
+
+//Closures
