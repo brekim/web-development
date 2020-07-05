@@ -43,5 +43,32 @@ if(a == b || a === 4) {
 var company = new Object();
 company.name = "Facebook";
 company.ceo = "Mark";
-company.ceo.favColor = blue;
+company.ceo.favColor = "Blue";
 
+company["$tockprice"] = 233;
+
+var oikku = {
+    name: "Oikku",
+    ceo: "Brett",
+    cfo: "Caeden",
+    cr_dir: "Lena"
+};
+
+function makeMultiplier(multiply) {
+    var myFunc = function(x) {
+        return multiply * x;
+    };
+
+    return myFunc;
+}
+
+var multiplyBy3 = makeMultiplier(3);
+console.log(multiplyBy3(3))
+
+//JavaScript allows you to pass functions as arguments as well...
+function doOperationOn(x, operation) {
+    return operation(x);
+}
+
+var result = doOperationOn(5, multiplyBy3);
+console.log(result);
