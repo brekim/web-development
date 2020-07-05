@@ -286,6 +286,31 @@ EXTRA SMALL DEVICES
     margin-bottom: 35px;
 }
 
+.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+}
+
+.panel-footer section hr {
+    width: 50%;
+}
+/* END FOOTER */
+
+/* Home Page */
+.container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+}
+
+#menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+}
+
 #hours, #address {
     line-height: 2;
 }
@@ -308,3 +333,26 @@ EXTRA SMALL DEVICES
     margin-top: 25px;
 }
 /* END FOOTER */
+
+ /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
