@@ -1,0 +1,32 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#cont {
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+.row div {
+    padding: 10px;
+    margin: 30px;
+    box-sizing: border-box;
+    background-color: lightcoral;
+}
+
+/** NAVBAR **/
+.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+
+.navbar-header button {
+    margin-top: 15px;
+} 
