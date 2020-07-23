@@ -30,3 +30,8 @@ h1, h2 {
 .navbar-header button {
     margin-top: 15px;
 } 
+
+#collapsable-nav {
+    margin-top: 80px;
+    border: 0;
+}
